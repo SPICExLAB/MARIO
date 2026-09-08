@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.log
+wandb/
+result/
+# training runs and checkpoints are not distributed
+experiments/
+*.ckpt
+# Third-party components fetched by the user, not redistributed here.
+# See "Optional: PoseNet third-party components" in README.md.
+core/articulate/
+nymeria/
+# SMPL body model (licensed, download from https://smpl.is.tue.mpg.de)
+assets/smpl/*.pkl
+# raw / processed data never lives in the repo
+*.vrs
+*.pkl
+*.pickle
+.env
+.vscode/

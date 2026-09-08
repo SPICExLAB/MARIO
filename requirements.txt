@@ -1,0 +1,18 @@
+# Tested with Python 3.10, CUDA 12, PyTorch 2.6
+torch==2.6.0
+numpy==2.2.6
+scipy==1.15.1
+pypose==0.6.8
+pyhocon==0.3.63
+tqdm==4.66.5
+matplotlib==3.10.8
+pandas==2.2.3
+wandb==0.21.0
+
+# Data preprocessing (Nymeria / Aria Everyday Activities)
+projectaria-tools==2.1.1
+vqf==2.0.1
+
+# Only for PoseNet training data. Required by Meta's Nymeria loader, which is
+# fetched by scripts/fetch_third_party.sh rather than shipped here (see THIRD_PARTY.md).
+# pymomentum
